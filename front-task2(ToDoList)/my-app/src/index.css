@@ -1,0 +1,72 @@
+body {
+  padding: 20px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* փոքրացրեցինք 40-ից, ավելի մոտ է */
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.list > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #9acd32, #32cd32); /* gradient green */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.list > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.done {
+  background-color: #aaa;
+  opacity: 0.7;
+  text-decoration: line-through; /* ✅ տեքստը անցանց է */
+  color: #fff;
+}
+
+button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #32cd32;
+  color: white;
+}
+
+input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-right: 10px;
+}
+
+input:focus {
+  border-color: #32cd32;
+  box-shadow: 0 0 5px rgba(50,205,50,0.5);
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
