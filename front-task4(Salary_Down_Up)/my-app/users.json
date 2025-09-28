@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "e27b",
+      "name": "Gurgen",
+      "age": "21",
+      "salary": "8500000"
+    },
+    {
+      "id": "975b",
+      "name": "Meggy",
+      "age": "27",
+      "salary": "326750"
+    },
+    {
+      "id": "b85c",
+      "name": "Anna",
+      "age": "23",
+      "salary": "235000"
+    },
+    {
+      "id": "c497",
+      "name": "Armen",
+      "age": "22",
+      "salary": "7500000"
+    }
+  ],
+  "products": []
+}
