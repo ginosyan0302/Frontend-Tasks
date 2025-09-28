@@ -1,0 +1,65 @@
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-card {
+  background: linear-gradient(135deg, #ffffff, #e0f7fa);
+  border-radius: 15px;
+  padding: 20px 25px;
+  width: 220px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  position: relative;
+}
+
+.user-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+.user-name {
+  color: #00796b;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.user-info {
+  color: #004d40;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.details-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background-color: #00796b;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.details-link:hover {
+  background-color: #004d40;
+  transform: translateY(-3px);
+}
+
+.add-user-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff3e0 0%, #00796b 100%);
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+}
+

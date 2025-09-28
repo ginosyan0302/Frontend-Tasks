@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "name": "Gurgen",
+      "surname": "Ginosyan",
+      "city": "Akhalkhalak",
+      "age": 21
+    },
+    {
+      "id": "102",
+      "name": "Armen",
+      "surname": "Khanjyan",
+      "city": "Akhalkhalak",
+      "age": 22
+    },
+    {
+      "id": "103",
+      "name": "Ani",
+      "surname": "Avetisyan",
+      "city": "Abovyan",
+      "age": 19
+    },
+    {
+      "id": "104",
+      "name": "Artur",
+      "surname": "Marabyan",
+      "city": "Kamchatsk",
+      "age": 21
+    },
+    {
+      "id": "105",
+      "name": "Meggy",
+      "surname": "Tufekchyan",
+      "city": "Prague",
+      "age": 27
+    },
+    {
+      "id": "106",
+      "name": "Monica",
+      "surname": "Stepanyan",
+      "city": "Yerevan",
+      "age": 23
+    },
+    {
+      "id": "107",
+      "name": "Narek",
+      "surname": "Ginosyan",
+      "city": "Moscow",
+      "age": 25
+    },
+    {
+      "id": "474b",
+      "name": "Michelle",
+      "surname": "Rodriguez",
+      "city": "Texas",
+      "age": "47"
+    }
+  ]
+}
